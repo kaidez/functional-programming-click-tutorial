@@ -1,0 +1,19 @@
+{
+  "name": "kaidez.com",
+  "version": "3.0.0",
+  "description": "Personal blog of Kai Gittens",
+  "main": "index.js",
+  "repository": "https://github.com/kaidez/kaidez.github.io.git",
+  "author": "Kai Gittens <kai.gittens@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.5"
+  }
+}
