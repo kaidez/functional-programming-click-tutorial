@@ -14,7 +14,7 @@ module.exports = {
   },
   entry: './js-build/index.js',
   output: {
-    filename: 'build/bundle.js',
-    path: path.resolve(__dirname, 'js')
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'build')
   }
 };
